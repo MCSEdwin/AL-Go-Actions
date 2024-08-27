@@ -41,7 +41,7 @@ if ($settings.versioningstrategy -ne -1) {
             $settings.appBuild = [Int32]::MaxValue
             $settings.appRevision = 0
         }
-        22 { # Use maxValue
+        6 { # Use maxValue
             $settings.appBuild =$settings.appBuild
             $settings.appRevision = $settings.appRevision
         }        
